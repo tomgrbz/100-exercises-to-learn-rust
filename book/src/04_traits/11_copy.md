@@ -1,4 +1,4 @@
-# Copying values, pt. 2
+#[derive(Clone)]# Copying values, pt. 2
 
 Let's consider the same example as before, but with a slight twist: using `u32` rather than `String` as a type.
 

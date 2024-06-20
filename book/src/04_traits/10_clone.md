@@ -1,7 +1,7 @@
 # Copying values, pt. 1
 
 In the previous chapter we introduced ownership and borrowing.  
-We stated, in particular, that:
+We stated, in particular, that: 
 
 - Every value in Rust has a single owner at any given time.
 - When a function takes ownership of a value ("it consumes it"), the caller can't use that value anymore.
