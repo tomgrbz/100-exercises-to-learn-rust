@@ -3,5 +3,12 @@ name = "outro_08"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "axum_ticket"
+path = "src/main.rs"
 [dependencies]
 tokio = { version = "1", features = ["full"] }
+axum = {version = "0.7.5"}
+ticket_fields = {path = "../../../helpers/ticket_fields"}
+serde = { version = "1", features = ["default", "derive"]}
+axum-macros = "*"

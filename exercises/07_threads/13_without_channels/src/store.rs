@@ -37,4 +37,5 @@ impl TicketStore {
     pub fn get(&self, id: TicketId) -> Option<Arc<RwLock<Ticket>>> {
         self.tickets.get(&id).cloned()
     }
+
 }
